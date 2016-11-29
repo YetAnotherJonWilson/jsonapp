@@ -1,0 +1,13 @@
+{
+  "name": "lynda_json_3",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.9",
+    "express": "^4.14.0",
+    "node": "0.0.0"
+  }
+}

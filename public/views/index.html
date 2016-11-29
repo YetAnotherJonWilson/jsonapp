@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="jsonApp">
+<head>
+	<meta charset="utf-8" />
+	<title>JavaScript And JSON</title>
+	<script src="/vendors/angular/angular.min.js"></script>
+	<script src="/client/app.js"></script>
+</head>
+<body ng-controller="MainController as Main">
+<h1>{{Main.message}}</h1>
+
+
+<h2>Links</h2>
+<ul style="list-style: none"  ng-repeat="item in Main.output">
+	<li ng-repeat="(key, value) in item">
+		<a href="{{value}}">{{key}}</a>
+	</li>
+</ul>
+
+</body>
+</html>
